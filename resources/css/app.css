@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Urbanist:wght@600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .hamburger {
+        @apply h-1 w-4 rounded relative bg-white before:absolute before:bottom-2 before:w-6 before:h-1 before:bg-white before:rounded after:absolute after:top-2 after:w-6 after:h-1 after:bg-white after:rounded
+    }
+}

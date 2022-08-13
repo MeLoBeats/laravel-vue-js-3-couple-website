@@ -16,3 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/todo', function () {
+    return view('welcome');
+});
+Route::get('/mcdo', function () {
+    return view('welcome');
+});
+Route::get('/timer', function () {
+    return view('welcome');
+});
+Route::get('/notes', function () {
+    return view('welcome');
+});
+Route::get('/notes/create', function () {
+    return view('welcome');
+});
+Route::get('/planning', function () {
+    return view('welcome');
+});
